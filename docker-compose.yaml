@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  authorizationservice:
+    build: .
+    container_name: authorizationserviceContainer1
+    ports:
+      - 8080:8080
