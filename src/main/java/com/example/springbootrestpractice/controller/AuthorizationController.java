@@ -20,6 +20,11 @@ public class AuthorizationController {
         this.service = service;
     }
 
+    @GetMapping("welcome")
+    public String welcome() {
+        return "Welcome on our website!";
+    }
+
     @GetMapping("authorize")
     public List<Authorities> getAuthorities(@AuthorizationUser User user) {
         return service.getAuthorities(user);

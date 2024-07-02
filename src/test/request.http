@@ -12,4 +12,8 @@ GET http://localhost:8080/authorize?user=yaroslav&password=12345
 
 GET http://localhost:8080/signin.html
 
+###
+
+GET http://localhost:8080/welcome
+
 
