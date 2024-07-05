@@ -16,4 +16,22 @@ GET http://localhost:8080/signin.html
 
 GET http://localhost:8080/welcome
 
+###
+
+GET http://localhost:8080/read/userProfile
+
+###
+
+GET http://localhost:8080/write/userProfile
+
+###
+
+GET http://localhost:8080/write_or_delete/userProfile
+
+###
+
+http://localhost:8080/hello-user?username=Igor
+
+
+
 
